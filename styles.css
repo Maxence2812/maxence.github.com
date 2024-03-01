@@ -1,3 +1,14 @@
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0; /* Supprimer les marges par défaut */
+}
+
 /* Style général */
 body {
     font-family: Arial, sans-serif;
@@ -278,4 +289,16 @@ footer {
 
 .contact-form button:hover {
     background-color: #555;
+}
+footer a {
+    color: #f9f9f9; /* Changer la couleur du lien selon vos préférences */
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+#services {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
